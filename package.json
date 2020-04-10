@@ -1,0 +1,25 @@
+{
+  "name": "trevor-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SDC-ghrden03/trevor-proxy.git"
+  },
+  "author": "Trevor Bell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SDC-ghrden03/trevor-proxy/issues"
+  },
+  "homepage": "https://github.com/SDC-ghrden03/trevor-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.3",
+    "morgan": "^1.10.0"
+  }
+}
