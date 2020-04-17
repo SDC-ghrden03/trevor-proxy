@@ -7,8 +7,104 @@
   padding: 10px
 }
 
+#topbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+#aboveCalculator {
+  position: relative;
+  width: 315px;
+  left: 910px;
+}
+
 #car-carousel-filler {
   height: 800px;
+}
+
+#car-carousel {
+  position: relative;
+  left: 100px;
+  bottom: 485px;
+}
+
+#cost-calculator {
+  position: relative;
+  left: 930px;
+  bottom: 795px;
+  background-color: white;
+  height: 525px;
+  width: 275px;
+}
+
+#details1 {
+  position: relative;
+  width: 650px;
+  left: 250px;
+  bottom: 1150px;
+}
+
+#details2 {
+  position: relative;
+  width: 670px;
+  right: 380px;
+  bottom: 724px;
+}
+
+#details3 {
+  position: relative;
+  width: 660px;
+  left: 262px;
+  bottom: 960px;
+}
+
+#details4 {
+  position: relative;
+  width: 680px;
+  right: 400px;
+  bottom: 332px;
+}
+
+#details5 {
+  position: relative;
+  width: 680px;
+  left: 262px;
+  bottom: 349px;
+}
+
+#similar-vehicles {
+  position: relative;
+  bottom: 340px;
+  left: 275px;
+}
+#similar-vehicles-text {
+  position: relative;
+  bottom: 350px;
+  left: 275px;
+  font-size: x-large;
+}
+
+#bottom {
+  position: relative;
+  width: 1010px;
+  bottom: 340px;
+  left: 275px;
+}
+
+#bottomLine {
+  position: relative;
+  bottom: 330px;
+  background-color: #333D47;
+  height: 60px;
+  width: 120%;
+}
+
+#bottomBar {
+  position: relative;
+  bottom: 260px;
+  width: 100%;
 }
 
 #taxesAndFees {

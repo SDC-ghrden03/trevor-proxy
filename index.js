@@ -18,7 +18,7 @@ app.listen(PORT, () => {
 //[[[[[[[[[[[[[[[[[[[[[ CAR CAROUSEL FROM API ROUTES ]]]]]]]]]]]]]]]]]]]]]
 
 app.use('/cars', createProxyMiddleware({
-  target: 'http://localhost:3001',
+  target: 'http://ec2-13-52-75-33.us-west-1.compute.amazonaws.com/',
   changeOrgin: true
 }))
 
